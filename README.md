@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mehmet AKALIN</h1>
-<h3 align="center">I am a 2nd year student of Computer Engineering at Ankara University. I am proficient in Python, C and C++ languages. I am working on SLAM algorithms with ROS2, image processing with OpenCV and developing projects in Artificial Intelligence/Machine Learning.</h3>
+<h3 align="center">I am a 3nd year student of Computer Engineering at Ankara University. I am proficient in Python, C and C++ languages. I am working on SLAM algorithms with ROS2, image processing with OpenCV and developing projects in Artificial Intelligence/Machine Learning.</h3>
 
 - 🔭 I’m currently working on [Autonomous Car](https://www.teknofest.org/tr/yarismalar/robotaksi-binek-otonom-arac-yarismasi/)
 
