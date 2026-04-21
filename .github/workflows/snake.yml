@@ -2,19 +2,20 @@ name: Generate Snake
 
 on:
   schedule:
-    # Günde bir kez gece yarısı çalıştırır
     - cron: "0 0 * * *"
-  
-  # İstediğin zaman manuel olarak tetikleyebilmeni sağlar
   workflow_dispatch:
+
+# HATA 128'İ ÇÖZEN KISIM (Yazma İzni)
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # Uyarıları çözmek için v4'e güncellendi
+      - uses: actions/checkout@v4
       
-      # Yılan animasyonunu oluşturan eklenti
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -22,8 +23,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             
-      # Oluşturulan dosyayı 'output' adında bir branch'e yükler
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Uyarıları çözmek için v4'e güncellendi
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
