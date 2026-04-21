@@ -1,0 +1,31 @@
+name: Generate Snake
+
+on:
+  schedule:
+    # Günde bir kez gece yarısı çalıştırır
+    - cron: "0 0 * * *"
+  
+  # İstediğin zaman manuel olarak tetikleyebilmeni sağlar
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      # Yılan animasyonunu oluşturan eklenti
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
+      # Oluşturulan dosyayı 'output' adında bir branch'e yükler
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
