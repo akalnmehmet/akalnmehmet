@@ -24,7 +24,7 @@
 | | |
 |---|---|
 | 🚗 &nbsp;**AUtomotion - R** | Building autonomous vehicles with the team. &nbsp;🏆 *Teknofest Robotaksi — 5th Place* |
-| 📡 &nbsp;**Deepening expertise** | Advanced ROS2 architectures, DeepLearning / YOLO models, Node.js & TypeScript |
+| 📡 &nbsp;**Deepening expertise** | Advanced ROS2 architectures, DeepLearning, YOLO models, Node.js & TypeScript |
 
 ---
 
