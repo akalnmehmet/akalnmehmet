@@ -54,17 +54,14 @@
 ---
 
 ## ⬡ &nbsp;GitHub Stats
-
+ 
 <div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=akalnmehmet&show_icons=true&hide_border=true&bg_color=00000000&title_color=1D9E75&icon_color=378ADD&text_color=555555" alt="GitHub Stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=akalnmehmet&show_icons=true&hide_border=true&theme=transparent&title_color=1D9E75&icon_color=378ADD&text_color=888888&border_color=30363d" alt="GitHub Stats" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs?username=akalnmehmet&layout=compact&hide_border=true&bg_color=00000000&title_color=1D9E75&text_color=555555" alt="Top Languages" />
-
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs?username=akalnmehmet&layout=compact&hide_border=true&theme=transparent&title_color=1D9E75&text_color=888888&border_color=30363d" alt="Top Languages" />
 <br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=akalnmehmet&hide_border=true&background=00000000&ring=1D9E75&fire=378ADD&currStreakLabel=534AB7&sideLabels=555555&dates=888888" alt="GitHub Streak" />
-
+ 
+<img src="https://streak-stats.demolab.com?user=akalnmehmet&hide_border=true&background=00000000&ring=1D9E75&fire=378ADD&currStreakLabel=5DCAA5&sideLabels=888888&dates=666666&stroke=30363d" alt="GitHub Streak" />
 </div>
 
 ---
