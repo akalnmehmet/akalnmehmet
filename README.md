@@ -57,7 +57,7 @@
  
 <div align="center">
  
-<img src="https://streak-stats.demolab.com?user=akalnmehmet&hide_border=true&background=00000000&ring=1D9E75&fire=378ADD&currStreakLabel=5DCAA5&sideLabels=CCCCCC&dates=AAAAAA&stroke=444444" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=akalnmehmet&hide_border=true&background=00000000&ring=1D9E75&fire=378ADD&currStreakLabel=5DCAA5&sideLabels=888888&dates=666666&stroke=30363d" alt="GitHub Streak" />
 </div>
 
 ---
