@@ -7,7 +7,7 @@
 
 <br/>
 
-*3rd-year student focused on robotics, autonomous systems (UAVs, VTOL, land vehicles), and artificial intelligence.*  
+*4rd-year student focused on robotics, autonomous systems (UAVs, VTOL, land vehicles), and artificial intelligence.*  
 *Specializing in SLAM algorithms with **ROS2**, computer vision with **OpenCV / YOLO**, and full-stack web development.*
 
 <br/>
